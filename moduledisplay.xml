@@ -1,41 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="plugin" group="system" method="upgrade">
-
     <name>PLG_SYSTEM_MODULEDISPLAY</name>
-
     <author>Angie Radtke</author>
     <authorUrl>https://www.der-auftritt.de</authorUrl>
-
     <creationDate>2026-08-24</creationDate>
-
     <copyright>Copyright (C) 2026 Angie Radtke. Alle Rechte vorbehalten.</copyright>
-
     <license>GNU General Public License version 2 or later</license>
-
     <version>2.1.5</version>
-
     <description>PLG_SYSTEM_MODULEDISPLAY_XML_DESCRIPTION</description>
-
     <namespace path="src">Joomla\Plugin\System\ModuleDisplay</namespace>
-
     <scriptfile>script.php</scriptfile>
-
     <files>
         <folder plugin="moduledisplay">services</folder>
         <folder>src</folder>
         <folder>forms</folder>
-        <folder>language</folder>
         <filename>script.php</filename>
     </files>
-
     <languages folder="language">
-
         <language tag="de-DE">de-DE/plg_system_moduledisplay.ini</language>
         <language tag="de-DE">de-DE/plg_system_moduledisplay.sys.ini</language>
-
         <language tag="en-GB">en-GB/plg_system_moduledisplay.ini</language>
         <language tag="en-GB">en-GB/plg_system_moduledisplay.sys.ini</language>
-
     </languages>
-
 </extension>
